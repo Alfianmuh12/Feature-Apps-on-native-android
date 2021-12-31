@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "844724835781",
+    "project_id": "uas-rpl-android",
+    "storage_bucket": "uas-rpl-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844724835781:android:d67985eb4599280a4727ac",
+        "android_client_info": {
+          "package_name": "com.aplikasi.uas_rpl_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844724835781-dmekmg8fq5h98bljduiqb4up6fidvhp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDoOHLV9Eyzgj3w2HRRMO_poLsvlg22fk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844724835781-dmekmg8fq5h98bljduiqb4up6fidvhp7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

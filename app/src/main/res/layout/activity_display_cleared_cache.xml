@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EB000000"
+    tools:context=".DisplayClearedCacheActivity">
+
+    <ImageView
+        android:id="@+id/storageIcon"
+        android:layout_width="123dp"
+        android:layout_height="117dp"
+        android:layout_marginBottom="100dp"
+        android:contentDescription="@string/storage_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.597"
+        app:srcCompat="@android:drawable/ic_menu_manage" />
+
+    <TextView
+        android:id="@+id/updatedCurrentStorageValue"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="#1CA6B8"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/currentStorageString"
+        app:layout_constraintTop_toBottomOf="@+id/storageIcon" />
+
+    <TextView
+        android:id="@+id/currentStorageString"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/current_storage"
+        android:textAlignment="center"
+        android:textColor="#1CA6B8"
+        android:textSize="24sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/updatedCurrentStorageValue"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/updatedCurrentStorageValue"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewPreviousStorage"
+        android:layout_width="201dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/storage_before"
+        android:textColor="#1CA6B8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewStorageAfter"
+        android:layout_width="0dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/storage_after"
+        android:textColor="#1CA6B8"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewPreviousStorage" />
+
+    <TextView
+        android:id="@+id/textViewCongratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/congratulations"
+        android:textColor="#1CA6B8"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/storageIcon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStorageAfter" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

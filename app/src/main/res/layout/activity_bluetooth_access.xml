@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothAccess">
+
+    <!--Changes the state of Bluetooth on button click-->
+    <Button
+        android:id="@+id/BtBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Click" />
+
+    <!--Displays the state of Bluetooth on button click-->
+    <TextView
+        android:id="@+id/BtTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/BtBtn"
+        android:layout_centerHorizontal="true"
+        android:hint="Bluetooth Status"
+        android:textSize="30sp" />
+
+</RelativeLayout>

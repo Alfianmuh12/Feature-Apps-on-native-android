@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UAS_RPL_Android</string>
+    <string name="action_settings">Settings</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="get_name">Get Name</string>
+    <string name="get_number">Get Number</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="title_activity_location">Location</string>
+    <string name="clear_button">CLEAR</string>
+    <string name="current_storage">Current Storage:</string>
+    <string name="storage_icon">storage icon</string>
+    <string name="mb">MB</string>
+    <string name="storage_before">Storage before: %1$d</string>
+    <string name="storage_after">Storage after: %1$d</string>
+    <string name="congratulations">Congratulations! You saved %dMB</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="fcm_message">FCM Message</string>
+    <string name="stringID">String ID</string>
+</resources>

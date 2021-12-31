@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="false">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_notification"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Notification"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/btn_special"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Special Notification"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Camera"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Camera Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_notification"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Speaker"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Speaker Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_notification"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_Mic"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Microphone Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_Speaker"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_List"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            android:text="List Book Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_Speaker"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Button
+            android:id="@+id/btn_Location"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            android:text="Location Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_List"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_finger"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            android:text="Fingerpint Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_List"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_face"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            android:text="Face Detection Access"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@id/btn_finger"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_wifi"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="WIFI Access"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.682" />
+
+        <Button
+            android:id="@+id/btn_bluetooth"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:text="Bluetooth Access"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.592" />
+
+        <Button
+            android:id="@+id/btn_Nfc"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:text="NFC Access"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.592" />
+        <Button
+            android:id="@+id/btn_Acce"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Accelerometer Access"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.774" />
+
+        <Button
+            android:id="@+id/btn_Magneto"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:text="Magnetometer Access"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.875" />
+
+        <Button
+            android:id="@+id/btn_Gyro"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Gyroscope Access"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.961" />
+        <Button
+            android:id="@+id/btn_Phone"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Access Cellular Phone"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.961" />
+        <Button
+            android:id="@+id/btn_imei"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:text="Access Device Info"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.961" />
+        <Button
+            android:id="@+id/btn_Cache"
+            android:layout_width="200dp"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Non-connection Use (Caching)"
+            android:layout_marginTop="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.961" />
+    </LinearLayout>
+
+</ScrollView>
